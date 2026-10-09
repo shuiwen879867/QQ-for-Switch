@@ -9,6 +9,10 @@
 | SILK SDK | Skype BSD 风格许可，不授予专利许可 |
 | OpenCORE AMR | Apache-2.0 |
 | FreeType、HarfBuzz、libpng、zlib、bzip2、newlib | 对应 `licenses/` 文件 |
+| FFmpeg 7.1 (Switch 构建) | 实际配置 --enable-gpl，库报告 GPL version 2 or later；见 licenses/FFmpeg-GPL-2.0.txt |
+| dav1d 1.5.0 | BSD-2-Clause；见 licenses/dav1d-BSD-2-Clause.txt |
 | Unicorn / QEMU | GPL/LGPL 等实际组件许可；附主要许可文本，不声称完成对应源码要求 |
 
 当前 NRO 内嵌腾讯原始 `libfekit.so`，该组件不由本项目开源许可授权。此仓库不包含该库的源码、提取表、私有适配或协议测试向量。附许可文本不能替代各二进制组件的授权及适用的完整对应源码、构建材料等要求。
+
+FFmpeg 的实际链接包含 libavformat、libavcodec、libswscale、libswresample 和 libavutil。许可判断依据本地已链接的构建配置及库声明；部分组件的 LGPL 许可不能覆盖启用 GPL 的构建。完整对应源码或必要的构建/重链接材料未在本仓库提供，许可告知不等同于已满足该条件。
