@@ -16,3 +16,5 @@
 当前 NRO 内嵌腾讯原始 `libfekit.so`，该组件不由本项目开源许可授权。此仓库不包含该库的源码、提取表、私有适配或协议测试向量。附许可文本不能替代各二进制组件的授权及适用的完整对应源码、构建材料等要求。
 
 FFmpeg 的实际链接包含 libavformat、libavcodec、libswscale、libswresample 和 libavutil。许可判断依据本地已链接的构建配置及库声明；部分组件的 LGPL 许可不能覆盖启用 GPL 的构建。完整对应源码或必要的构建/重链接材料未在本仓库提供，许可告知不等同于已满足该条件。
+
+Twemoji 14.0.2 graphics, Copyright Twitter, Inc. and contributors, CC-BY-4.0. Source: https://github.com/twitter/twemoji/tree/v14.0.2 . The embedded glyphs are resized and color-quantized to 32px; the graphics license is in licenses/Twemoji-CC-BY-4.0.txt. QQ face graphics come from Tencent public qzonestyle.gtimg.cn CDN; identifiers use the original QQ QSid/EMCode mapping. These proprietary graphics are not covered by the Twemoji license.
