@@ -18,3 +18,38 @@
 FFmpeg 的实际链接包含 libavformat、libavcodec、libswscale、libswresample 和 libavutil。许可判断依据本地已链接的构建配置及库声明；部分组件的 LGPL 许可不能覆盖启用 GPL 的构建。完整对应源码或必要的构建/重链接材料未在本仓库提供，许可告知不等同于已满足该条件。
 
 Twemoji 14.0.2 graphics, Copyright Twitter, Inc. and contributors, CC-BY-4.0. Source: https://github.com/twitter/twemoji/tree/v14.0.2 . The embedded glyphs are resized and color-quantized to 32px; the graphics license is in licenses/Twemoji-CC-BY-4.0.txt. QQ face graphics come from Tencent public qzonestyle.gtimg.cn CDN; identifiers use the original QQ QSid/EMCode mapping. These proprietary graphics are not covered by the Twemoji license.
+
+## Zstandard 1.5.7
+
+NSZ 解压链接 Zstandard 1.5.7，使用随附 BSD 许可。格式依据 nicoboss/nsz 的公开说明，本项目编写独立解压适配。
+
+BSD License
+
+For Zstandard software
+
+Copyright (c) Meta Platforms, Inc. and affiliates. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+ * Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+ * Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+ * Neither the name Facebook, nor Meta, nor the names of its contributors may
+   be used to endorse or promote products derived from this software without
+   specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
