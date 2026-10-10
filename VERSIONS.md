@@ -1,0 +1,20 @@
+# 版本简表
+
+稳定版：**0.5.46**（加入文件功能前的基线）。最新版：**0.5.49**（文件修复测试版）。
+
+| 版本 | 分类 | 主要变化 |
+| --- | --- | --- |
+| [0.5.49](https://github.com/shuiwen879867/QQ-for-Switch/releases/tag/v0.5.49) | 最新版 · 测试版 | 修复点击聊天文件时下载主机字段兼容；保留完整签名路径，正确显示负数服务器错误码和失败阶段。 |
+| [0.5.48](https://github.com/shuiwen879867/QQ-for-Switch/releases/tag/v0.5.48) | 历史版本 | 改进设备选择、聊天附件入口和文件排序；修复上传确认及去重回复。 |
+| [0.5.47](https://github.com/shuiwen879867/QQ-for-Switch/releases/tag/v0.5.47) | 历史版本 | 新增设备文件收发、群文件浏览、文件管理和 DBI 打开入口。 |
+| [0.5.46](https://github.com/shuiwen879867/QQ-for-Switch/releases/tag/v0.5.46) | 稳定版 | 修复视频授权与签名地址解析，增加重新获取；保留图片、空间、语音和表情功能。未加入 0.5.47 起的文件功能。 |
+| [0.5.45](https://github.com/shuiwen879867/QQ-for-Switch/releases/tag/v0.5.45) | 历史版本 | 修复图片加载提示、群历史大页面和 NT 视频选择；视频下载上限 50 MB。 |
+| [0.5.44](https://github.com/shuiwen879867/QQ-for-Switch/releases/tag/v0.5.44) | 历史版本 | 修复图片授权入口，加入 emoji 和常用 QQ 表情显示。 |
+| [0.5.43](https://github.com/shuiwen879867/QQ-for-Switch/releases/tag/v0.5.43) | 历史版本 | 增加旧图片地址重新授权及历史媒体更新。 |
+| [0.5.42](https://github.com/shuiwen879867/QQ-for-Switch/releases/tag/v0.5.42) | 历史版本 | 修复图片地址及授权参数选择，改善忙碌时的图片点击与下载。 |
+| 0.5.24（草稿） | 历史版本 | 增加四条后台图片通道、缓存复用和发送耗时诊断。 |
+| [0.5.22](https://github.com/shuiwen879867/QQ-for-Switch/releases/tag/v0.5.22) | 历史版本 | 签名改为后台计算；修复回执顺序和消息队列，减少界面阻塞。 |
+| [0.5.21](https://github.com/shuiwen879867/QQ-for-Switch/releases/tag/v0.5.21) | 历史版本 | 修复自动登录状态和长中文昵称兼容；补充扫码进度显示。 |
+| 0.5.20（草稿） | 历史版本 | 修复签名耗时引起的误超时；改进后台图片、触摸操作、自动登录和断线重连。 |
+
+历史版本及未发布草稿保留原文件和状态，不再重复列出全部功能。稳定版已安装读回；最新版此次修复尚未真机验证。
