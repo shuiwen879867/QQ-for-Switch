@@ -1,10 +1,11 @@
 # 版本简表
 
-稳定版：**0.5.46.1**（0.5.46 无文件功能基线 + 新设备注册）。最新版：**0.5.52**（文件上传通道及设备发送修复）。
+稳定版：**0.5.46.1**（0.5.46 无文件功能基线 + 新设备注册）。最新版：**0.5.53**（QQ 内直接安装）。
 
 | 版本 | 分类 | 主要变化 |
 | --- | --- | --- |
-| [0.5.52](https://github.com/shuiwen879867/QQ-for-Switch/releases/tag/v0.5.52) | 最新版 · 测试版 | 修复上传地址解析；设备文字、图片及文件使用专用路由和独立会话。 |
+| [0.5.53](https://github.com/shuiwen879867/QQ-for-Switch/releases/tag/v0.5.53) | 最新版 · 测试版 | QQ 内直接安装未压缩 NSP、XCI 到 SD 卡，显示进度、取消与错误；保留文件和设备修复。 |
+| [0.5.52](https://github.com/shuiwen879867/QQ-for-Switch/releases/tag/v0.5.52) | 历史最新版 | 修复上传地址解析；设备文字、图片及文件使用专用路由和独立会话。 |
 | [0.5.51](https://github.com/shuiwen879867/QQ-for-Switch/releases/tag/v0.5.51) | 历史最新版 | 修复语音解析、群文件大小字段、只显示目录；设备选择进入聊天。 |
 | [0.5.50](https://github.com/shuiwen879867/QQ-for-Switch/releases/tag/v0.5.50) | 历史最新版 | 首次登录自动注册本机设备，保留文件功能和修复。 |
 | [0.5.46.1](https://github.com/shuiwen879867/QQ-for-Switch/releases/tag/v0.5.46.1) | 稳定版基线补丁 | 首次登录自动注册本机设备，保留原无文件功能集。 |
